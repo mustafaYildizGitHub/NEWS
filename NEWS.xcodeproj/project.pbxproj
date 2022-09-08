@@ -45,6 +45,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		752F8D6C28CA807D00AD5E6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				752FC68428CA1CEA00670549 /* Main.storyboard */,
+				752FC69A28CA58A800670549 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		752F8D6D28CA809A00AD5E6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				752FC69228CA1E2200670549 /* NewsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		752F8D6E28CA80BF00AD5E6A /* Model and Networking */ = {
+			isa = PBXGroup;
+			children = (
+				752FC69628CA229F00670549 /* Articles.swift */,
+				752FC69428CA222500670549 /* Webservice.swift */,
+			);
+			path = "Model and Networking";
+			sourceTree = "<group>";
+		};
+		752F8D6F28CA80F500AD5E6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				752FC69828CA405100670549 /* ArticlesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		752FC67228CA1CE900670549 = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +100,13 @@
 			children = (
 				752FC67E28CA1CEA00670549 /* AppDelegate.swift */,
 				752FC68028CA1CEA00670549 /* SceneDelegate.swift */,
-				752FC68428CA1CEA00670549 /* Main.storyboard */,
-				752FC69228CA1E2200670549 /* NewsTableViewController.swift */,
+				752F8D6E28CA80BF00AD5E6A /* Model and Networking */,
+				752F8D6C28CA807D00AD5E6A /* View */,
+				752F8D6F28CA80F500AD5E6A /* ViewModel */,
+				752F8D6D28CA809A00AD5E6A /* Controller */,
 				752FC68728CA1CEB00670549 /* Assets.xcassets */,
 				752FC68928CA1CEB00670549 /* LaunchScreen.storyboard */,
 				752FC68C28CA1CEB00670549 /* Info.plist */,
-				752FC69428CA222500670549 /* Webservice.swift */,
-				752FC69628CA229F00670549 /* Articles.swift */,
-				752FC69828CA405100670549 /* ArticlesViewModel.swift */,
-				752FC69A28CA58A800670549 /* TableViewCell.swift */,
 			);
 			path = NEWS;
 			sourceTree = "<group>";
